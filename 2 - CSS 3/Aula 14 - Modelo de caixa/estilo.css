@@ -1,0 +1,14 @@
+/*
+Modelo de caixa
+*/
+
+.conteudo {
+	border: 1px solid black;
+	padding-top: 10px;
+	padding: 10px;
+}
+
+h2{
+	border: 1px solid red;	
+	margin: 0px;
+}
