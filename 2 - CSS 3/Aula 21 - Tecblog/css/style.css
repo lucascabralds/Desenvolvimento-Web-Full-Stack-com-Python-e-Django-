@@ -65,9 +65,7 @@ a{
     float: left;
     
 }
-#area-postagens,#area-lateral{
-    background: white;
-}
+
 
 #area-lateral{
     width: 240px;
@@ -87,6 +85,17 @@ a{
     background: white;
 }
 
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
 h2{
     color: #f7b600;
 }
@@ -99,3 +108,9 @@ h2{
     display: block;
     
 }
+
+ .postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    /* *border-bottom: 1px dotted # */
+ }
