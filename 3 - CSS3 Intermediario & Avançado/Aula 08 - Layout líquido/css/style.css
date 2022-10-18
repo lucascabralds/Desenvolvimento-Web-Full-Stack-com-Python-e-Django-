@@ -1,0 +1,67 @@
+/* Layout de largura fixa */
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background:#f2f2f2
+}
+
+#container{
+    width: 85%;
+    margin: 0 auto;
+    background:#fff;
+    min-width: 720px;
+    
+}
+
+#marca{
+    width:100% ;
+    height:100px;
+    background: #9e9e9e;
+    text-align: center;
+    line-height: 100px;; 
+}
+#Conteudo{
+     width: 75%;
+     float: right;
+}
+
+#conteudo-principal{
+float: left;
+width: 63%;
+}
+
+#conteudo-secundario{
+    width: 34%;
+    float: right;
+    background: #D1D1D1;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#Navegação{
+    width:23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #D1D1D1;
+}
+
+#Navegação ul{
+    list-style: none;
+}
+
+#Navegação li a{
+    list-style: none;
+}
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
