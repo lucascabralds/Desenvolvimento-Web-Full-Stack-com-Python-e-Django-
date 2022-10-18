@@ -14,7 +14,6 @@
  /* Se um seletor for mais especifico que o outro 
  a regra mais especifica será aplicada (terá precedencia sobre regras mais gerais)
  */
-
  * {
  	color: red;
  }
