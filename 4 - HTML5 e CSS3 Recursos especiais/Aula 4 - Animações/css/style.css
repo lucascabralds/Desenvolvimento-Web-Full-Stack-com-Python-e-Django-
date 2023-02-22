@@ -1,0 +1,18 @@
+/* Animações */
+@keyframes animacao_caixa{
+    from/*Estado Inicial*/ {
+        background: red;
+    }
+    to /*Estado final*/{
+        background: green;
+    }
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    /*background: url("./img/camera.png");*/
+    background: linear-gradient(red);
+    animation-name: animacao_caixa;
+
+}
